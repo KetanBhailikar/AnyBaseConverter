@@ -11,9 +11,8 @@ def main():
         ToDecimal(n, b, b1)
     print(str(n)+' in Base '+str(b1)+' is : '+finalNum)
 
+
 # Converting Base 10 to Any other Base:
-
-
 def ToBaseN(n, b):
     global finalNum
     finalNum = " "
@@ -24,9 +23,8 @@ def ToBaseN(n, b):
     else:
         finalNum = finalNum + " "+str(str(n % int(b)))+" "
 
+
 # Converting any number which has a base greater than 10:
-
-
 def ToDecimal(num, b, b1):
     decimal_value = 0
     base = 1
@@ -59,9 +57,8 @@ def ToDecimal2(a, b, c):
         temp = temp-1
     ToBaseN(int(deci_val), c)
 
+
 # Handling Errors
-
-
 def err(n, b):
     print("Error : "+str(n)+" is not a Base "+str(b)+" Number!")
     exit()
