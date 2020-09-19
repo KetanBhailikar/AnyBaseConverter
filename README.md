@@ -2,15 +2,13 @@
 
 This program Converts a number of any base to any another base as you wish.
 
-Instructions:
-Its not that complicated.
+##Instructions
 
-
-The program asks the number and its base.
+The program asks for a number and its base.
 It also asks the Base to which you want to convert it to.
 
 
-For numbers having bases greater than 10 :
+###For numbers having bases greater than 10
 
 The program will ask to enter the digits one by one, and because the base is greater than 10, numbers having 2 
 or more digits will be considered as a single digit.
@@ -23,5 +21,5 @@ NOTE : If a number is being converted to base greater than 10, then the process 
         3129 in Base 20 is :  07 16 9
     
 In this case, the numbers which are separated by spaces on both sides, must be considered as a single digit.
-So the resultant number is  : 7G9
+So the resultant number is  : ```7G9```
 
