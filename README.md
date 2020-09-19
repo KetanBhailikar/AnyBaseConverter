@@ -2,13 +2,13 @@
 
 This program Converts a number of any base to any another base as you wish.
 
-##Instructions
+## Instructions
 
 The program asks for a number and its base.
 It also asks the Base to which you want to convert it to.
 
 
-###For numbers having bases greater than 10
+### For numbers having bases greater than 10
 
 The program will ask to enter the digits one by one, and because the base is greater than 10, numbers having 2 
 or more digits will be considered as a single digit.
